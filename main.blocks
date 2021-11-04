@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id=";~5E3-n98;Xvv8!f3{TG" x="0" y="0"><statement name="HANDLER"><block type="typescript_statement" id="uga}446wJ,HN0){S-H8R" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;RANDOM&quot;, 65)" numlines="1"></mutation></block></statement></block><block type="device_button_event" id=",^w^T;d.9nr5B-Nj@M(T" x="530" y="68"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="|@!7t,@Vr%hG;~Asl0fp"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="servoservosetangle" id="5tmS!X,[Mfup7hR9YhTw"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker"/><block type="device_random" id="l4fJFTi/11K)vVgTdQyz"><value name="min"><shadow type="math_number" id="ly[n[oVJ-V|~fP9@9Eld"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="9_2fe%]h#Tz74c_Th1K}"><field name="NUM">180</field></shadow></value></block></value></block></next></block></statement></block></xml>
